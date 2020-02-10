@@ -1,2 +1,3 @@
 javascript-part
 react-part
+  - react-part_components
