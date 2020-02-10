@@ -1,3 +1,4 @@
-javascript-part
-react-part
+* javascript-part
+* react-part
   - react-part_components
+  - react-part_routing
