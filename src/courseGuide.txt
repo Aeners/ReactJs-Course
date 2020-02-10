@@ -1,3 +1,0 @@
-/** DÉCLARATION DE VARIABLES **/
-/** MUTATIONS **/
-/** FONCTIONS **/
