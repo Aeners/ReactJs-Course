@@ -1,0 +1,17 @@
+.section-container {
+  padding: 15px 0;
+  background-color: lemonchiffon;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickcount-content {
+  margin-right: 30px;
+  font-size: 16px;
+  color: black;
+}

@@ -1,0 +1,16 @@
+.guestbook-container {
+  padding: 15px 0;
+  background-color: crimson;
+}
+
+h1 {
+  margin: 0;
+  color: pink;
+}
+
+.guest-list-container {
+  margin: 0;
+  text-align: left;
+  font-size: 25px;
+  color: pink;
+}

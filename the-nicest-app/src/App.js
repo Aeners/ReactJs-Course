@@ -1,7 +1,10 @@
 import React from "react";
 
+import Section from "./Section";
+import GuestBook from "./GuestBook";
+
 import logo from "./logo.svg";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Section />
+      <GuestBook />
     </div>
   );
 }
