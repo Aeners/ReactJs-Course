@@ -1,32 +1,16 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Section from "./Section";
-import GuestBook from "./GuestBook";
+import Home from "./Home";
+import SecretPage from "./SecretPage";
 
-import logo from "./logo.svg";
-import "./styles/App.css";
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Section />
-      <GuestBook />
-    </div>
-  );
-}
+const App = () => (
+  <Router>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/secret-page" component={SecretPage} />
+    </Switch>
+  </Router>
+);
 
 export default App;

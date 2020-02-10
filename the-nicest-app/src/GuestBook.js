@@ -8,7 +8,9 @@ const guests = ["Michael Scott", "Dan Abramov", "Barack Obama"];
 
 const GuestBook = () => {
   const renderGuests = () => {
-    return guests.map(guestName => <GuestListItem name={guestName} />);
+    return guests.map((guestName, index) => (
+      <GuestListItem key={`list-item-${guestName}-${index}`} name={guestName} />
+    ));
   };
 
   return (
